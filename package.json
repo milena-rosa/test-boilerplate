@@ -1,0 +1,22 @@
+{
+  "name": "@somostera/react-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "somostera",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "bin": {
+    "create-react-boilerplate": "./generate-app.js"
+  }
+}
