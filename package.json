@@ -17,6 +17,6 @@
     "rimraf": "^3.0.2"
   },
   "bin": {
-    "create-react-boilerplate": "./generate-app.js"
+    "create-cool-boilerplate": "./generate-app.js"
   }
 }
